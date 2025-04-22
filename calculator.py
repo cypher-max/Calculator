@@ -1,20 +1,20 @@
 def calculate(op,num1,num2):
     if op == '+':
-        total = num1 + num2
+        return num1 + num2
 
     elif op == '-':
-        total = num1 - num2
+       return num1 - num2
 
     elif op == '*':
-        total = num1 * num2
+        return num1 * num2
 
     elif op == '/':
         if num2 == 0:
             print("A number can't be divided by zero")
         else:
-            total = num1 / num2
+            return num1 / num2
 
-    return total
+     
 
 
 
