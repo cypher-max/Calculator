@@ -1,3 +1,10 @@
-nam= input("Enter your name: ")
-age= int(input("Enter your age: "))
-print(f"Hello {nam}, you are {age} years old.")
+n = int(input("Enter a number: "))
+
+num =[]
+for i in range(n):
+    num.append(i)
+
+for n in num:
+    n=n*n
+    print(n)
+        
